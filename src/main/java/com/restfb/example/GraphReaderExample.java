@@ -69,7 +69,7 @@ public class GraphReaderExample extends Example {
   }
 
   GraphReaderExample(String accessToken) {
-    facebookClient25 = new DefaultFacebookClient(accessToken, Version.VERSION_2_5);
+    facebookClient25 = new DefaultFacebookClient(accessToken, Version.LATEST);
   }
 
   void runEverything() {
